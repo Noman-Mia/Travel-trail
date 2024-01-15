@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* navbar */
+.navbar {
+  max-width: 1250px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-title {
+  display: flex;
+  align-items: center;
+  /* width: 60%; */
+}
+
+.nav-title img {
+}
+.Trail {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav-title h2 {
+  padding-left: 0.5rem;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-weight: 800;
+}
+.nav-content ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  justify-content: space-between;
+}
+.nav-content div {
+  display: flex;
+  align-items: center;
+}
+.nav-content ul li a {
+  text-decoration: none;
+  margin-right: 30px;
+  /* color:#424247; */
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-content ul li .home {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 700;
+}
+/* header */
+.header-section {
+    background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1250px;
+    margin: 0 auto;
+    min-height: 500px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(1, 33, 57, 0.406);
+    background-blend-mode: multiply;
+    color: #fff;
+  }
+
+.header-description h1 {
+  text-align: center;
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  font-weight: 800;
+}
+.header-description p {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.header-container{
+  display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+}
+.header-container input {
+  color: rgba(19, 19, 24, 0.5);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 174px;
+  height: 42px;
+  border-radius: 8px;
+  background: #FFF;
+}
+.header-container select {
+  color: rgba(19, 19, 24, 0.5);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 174px;
+  height: 42px;
+  border-radius: 8px;
+  background: #FFF;
+  text-align: center;
+ 
+}
+.btn {
+  width: 174px;
+  height: 42px;
+  border-radius: 8px;
+  background: #ff5400;
+}
