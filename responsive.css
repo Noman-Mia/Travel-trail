@@ -54,4 +54,20 @@
 .news-letter-img{
 
 }
+.main-content{
+    padding-left:30px ;
+    width: 500px;
+    flex-direction: column;
+}
+.content{
+    width: 450px;
+}
+.discount-middle .content{
+    margin-left: 0px;
+}
+.extra-point{
+    flex-direction: column;
+    width: 480px;
+    margin: 10px;
+}
 }

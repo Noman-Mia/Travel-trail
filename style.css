@@ -70,6 +70,7 @@
     background-color: rgba(1, 33, 57, 0.406);
     background-blend-mode: multiply;
     color: #fff;
+    margin-bottom: 50px;
   }
 
 .header-description h1 {
@@ -479,11 +480,53 @@ font-weight: 400;
 line-height: 26px;/
 }
 
+/* extra */
+.extra-section{
 
+  max-width: 1250px;
+  margin: 0 auto;
+}
+.extra-description{
 
+}
 
+.extra-description h1{
+  color: #131318;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 20px;
+}
 
+.extra-description p{
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+} 
 
+.extra-point{
+  margin-top: 50px;
+  display: flex;
+  gap: 30px;
+  line-height: 30px;
+}
+.extra-point p{
+color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+}
+.extra-point p::first-letter{
+  font-size:x-large;
+  color: #FF5400;
+}
 
 
 
