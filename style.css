@@ -222,18 +222,6 @@ font-weight: 800;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* why choose us */
 .why-choose{
   width: 1250px;
@@ -296,4 +284,33 @@ background: rgba(251, 181, 99, 0.05);
   border-radius: 16px;
   border: 1px solid rgba(41, 206, 246, 0.20);
   background: rgba(41, 206, 246, 0.05);
+}
+
+/* footer */
+.footer{
+  background: rgba(19, 19, 24, 0.05);
+  max-width: 1360px;
+  height: 500px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-title{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.icon{
+  margin-top: 20px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.footer p{
+  margin-bottom: 40px;
 }

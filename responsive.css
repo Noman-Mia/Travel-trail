@@ -22,4 +22,11 @@
  .img{
     flex-direction: column;
 }
+.why-choose p, .why-choose h1{
+ max-width: 400px;
+}
+.footer{
+    width: 500px;
+    margin: 10px;
+}
 }
