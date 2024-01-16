@@ -96,10 +96,13 @@ body{
 }
 
 .header-container{
-  display: inline-flex;
+display: inline-flex;
 padding: 16px;
 align-items: flex-start;
 gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
 }
 .header-container input {
   color: rgba(19, 19, 24, 0.5);
