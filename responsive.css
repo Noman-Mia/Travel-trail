@@ -2,7 +2,7 @@
     .nav-title{
     
     }
-    .nav-content ul, .header-container{
+    .nav-content ul, .header-container, .img-1, .img-2, .img-3, .why-choose-container{
         flex-direction: column;
     }
     
@@ -14,5 +14,12 @@
     }
     .container-img{
        object-fit: fill;
+}
+ .why-choose-container div{
+    gap: 10px;
+    flex-basis:150px;
+}
+ .img{
+    flex-direction: column;
 }
 }
