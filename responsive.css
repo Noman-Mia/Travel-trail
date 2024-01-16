@@ -4,6 +4,7 @@
     }
     .nav-content ul, .header-container, .img-1, .img-2, .img-3, .why-choose-container{
         flex-direction: column;
+        object-fit: fill;
     }
 
     .popular-section{
@@ -11,6 +12,7 @@
         gap: 25px;
         padding: 5px;
         width: 100%;
+        object-fit: fill;
     }
     .container-img{
        object-fit: fill;
@@ -18,17 +20,38 @@
  .why-choose-container div{
     gap: 0px;
     flex-basis:0px;
-    width: 500px;
+    width: 450px;
+    object-fit: fill;
 }
  .img{
     flex-direction: column;
+    object-fit: fill;
 }
 .why-choose p, .why-choose h1{
  max-width: 400px;
+}
+.footer-title{
+    gap: 0px;
 }
 .footer{
     width: 500px;
     margin: 10px;
     object-fit: fill;
+}
+.place{
+    flex-direction: column;
+    gap: 0px;
+}
+.vedio{
+    height: 400px;
+}
+.news-letter{
+    gap: 20px;
+    flex-direction: column;
+    width: 300px;
+   
+}
+.news-letter-img{
+
 }
 }
