@@ -329,7 +329,18 @@ background: rgba(251, 181, 99, 0.05);
  padding-top: 0px;
   padding-bottom: 100px;
   margin-top: 0px;
+  position: relative;
   
+}
+.cat{
+  position: absolute;
+  z-index: 1;
+  background: #e9e3e3cb;
+  color: rgb(255, 250, 250);
+  right:137px;
+  font-weight: 800;
+  margin-bottom:0px;
+ border-radius: 30%;
 }
 
 
@@ -533,8 +544,20 @@ line-height: 26px;
   color: #FF5400;
 }
 
-
-
+.news-letter-img{
+  position: relative;
+}
+.save-money{
+border-radius: 16px;
+background: #FF5400;
+width: 230px;
+height: 100px;
+transform: rotate(-25.628deg);
+position: absolute;
+padding: 25px;
+right: 72px;
+margin-top: 112px;
+}
 
 
 
