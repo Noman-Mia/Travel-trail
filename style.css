@@ -561,7 +561,59 @@ padding: 25px;
 right: 72px;
 margin-top: 112px;
 }
+.img-1{
+  position: relative;
+ 
+}
+.bangladesh{
+  font-size: x-large;
+  margin: -176px 13px -16px -349px;
+  position: absolute;
+  color: #FFF;
+}
+.india{
+  color: #ffffff;
+  position: absolute;
+  font-size: x-large;
+  margin: -179px 10px 18px 272px
+}
 
+.img-2{
+position: relative;
+}
+.Srilanka{
+  color: #FFF;
+ position: absolute;
+ font-size: x-large;
+ margin: -151px 3px 5px 392px;
+}
+.Japan {
+  color: #FFF;
+  position: absolute;
+  font-size: x-large;
+  margin: -174px 6px 9px 1px;
+}
+.Canada{
+  color: #FFF;
+  position: absolute;
+  font-size: x-large;
+  margin: -182px 3px 5px -445px;
+}
+.img-3{
+  position: relative;
+}
+.Argentina{
+ position: absolute;
+ color: #FFF;
+ font-size: x-large;
+ margin: -175px 3px 5px 201px
+}
+.Brazil{
+  position:absolute;
+  color: #FFF;
+  font-size: x-large;
+  margin: -192px 3px 5px -382px;
+}
 
 
 
