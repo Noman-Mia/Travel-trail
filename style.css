@@ -614,7 +614,15 @@ position: relative;
   font-size: x-large;
   margin: -192px 3px 5px -382px;
 }
+ .header-section{
+  position: relative;
 
+}
+.search{
+  position: absolute;
+  color: #fdf6f6;
+  margin: -46px 4px 4px 636px;
+}
 
 
 /* footer */
