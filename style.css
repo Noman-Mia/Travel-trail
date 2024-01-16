@@ -15,9 +15,7 @@
 .nav-title {
   display: flex;
   align-items: center;
-  /* width: 60%; */
 }
-
 .nav-title img {
 }
 .Trail {
@@ -39,6 +37,10 @@
   list-style: none;
   justify-content: space-between;
 }
+.nav-content ul li a:hover{
+  color: #FF5400;
+  
+}
 .nav-content div {
   display: flex;
   align-items: center;
@@ -51,12 +53,7 @@
   font-size: 18px;
   font-weight: 400;
 }
-.nav-content ul li .home {
-  color: #ff5400;
-  font-family: Mulish;
-  font-size: 18px;
-  font-weight: 700;
-}
+
 /* header */
 .header-section {
     background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
@@ -81,6 +78,7 @@
   font-family: Mulish;
   font-size: 64px;
   font-weight: 800;
+  margin-bottom: 20px;
 }
 .header-description p {
   color: #fff;
@@ -89,6 +87,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+  margin-bottom: 20px;
 }
 
 .header-container{
@@ -129,4 +128,172 @@ gap: 24px;
   height: 42px;
   border-radius: 8px;
   background: #ff5400;
+}
+.btn:hover{
+  background-color: aqua;
+}
+
+/* popular section */
+.popular-section{
+  display: flex;
+  max-width: 1250px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 100px;
+}
+.container-img{
+  max-width: 540px;
+  max-height: 560px;
+}
+.container{
+  max-width: 50%;
+  margin-top: 20px;
+}
+.container h1{
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+.container p{
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+.container ul li{
+color: rgba(19, 19, 24, 0.70);
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+#button{
+ margin-top:1rem;
+}
+
+/* grid des */
+.grid-description{
+  max-width: 1250px;
+  text-align: center;
+  margin-top: 70px;
+}
+.grid-description h1{
+margin-bottom: 20px;
+color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.grid-description p{
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px; 
+  gap: 5px;
+  margin-bottom: 30px;
+}
+
+
+.grid-container{
+  max-width: 1250px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.grid-container .img-1{
+  display: flex;
+  gap: 10px;
+}
+.grid-container .img-2{
+  display: flex;
+  gap: 13px;
+}
+.grid-container .img-3{
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* why choose us */
+.why-choose{
+  width: 1250px;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+.why-choose h1{
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.why-choose p{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+/* why choose container */
+.why-choose-container{
+  display: flex;
+  flex-wrap: wrap;
+  /* display:grid;
+  grid-template-columns: repeat(2, 1fr); */
+  margin: 0 auto;
+  justify-content: center;
+  gap: 50px;
+}
+.why-choose-container div{
+  flex-basis: 500px
+}
+.why-choose-container img{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.hotel{
+ border: 2px solid yellow;
+ padding:20px;
+ border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.price{
+  border: 2px solid red;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+}
+.map{
+  border: 2px solid skyblue;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.20);
+  background: rgba(41, 206, 246, 0.05);
 }
