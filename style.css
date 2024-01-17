@@ -136,6 +136,7 @@ background: rgba(255, 255, 255, 0.30);
   height: 42px;
   border-radius: 8px;
   background: #ff5400;
+  border: none;
 }
 .btn:hover{
   background-color: aqua;
@@ -395,6 +396,7 @@ background: rgba(251, 181, 99, 0.05);
   width: 370px;
   height: 45px;
   margin-bottom: 10px;
+  border: none;
 }
 
 /* dial and discounts */
