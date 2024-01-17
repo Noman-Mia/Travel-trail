@@ -41,18 +41,20 @@
 .place{
     flex-direction: column;
     gap: 0px;
+    margin-bottom: 20px;
 }
 .vedio{
     height: 400px;
 }
 .news-letter{
-    gap: 20px;
+    gap:70px;
     flex-direction: column;
-    width: 300px;
+    max-width: 450px;
+    
    
 }
 .news-letter-img{
-
+ width: 450px;
 }
 .main-content{
     padding-left:30px ;
@@ -78,10 +80,10 @@
     margin-bottom: -417px;
 }
 .bangladesh{
-    margin: -494px 272px 11px -66px;
+    margin: -385px 272px 11px -66px
 }
 .india{
-    margin: -174px 272px 11px -26px;
+    margin: -147px 272px 11px -26px;
 }
 .Srilanka{
     margin: -1021px 6px 9px -35px;
@@ -93,7 +95,7 @@
     margin: -174px 3px 5px -55px;
 } 
 .Brazil{
-    margin: -562px 3px 5px -45px;
+    margin: -373px 3px 5px -45px;
 } 
 .Canada{
     margin: -267px 3px 5px -55px;
@@ -101,4 +103,23 @@
 .search{
     margin: -46px 4px 4px 37px;
 }  
+.discount-img{
+    width: 499px;
+}
+.discount-middle{
+    width: 499px;
+}
+.discount-middle .content {
+    margin-left: -55;
+}
+.grid-container .img-3{
+    width: 450px;
+}
+.img-1{
+    width: 450px;
+}
+.footer{
+    width: 480px;
+    padding-left: 20px;
+}
 }
