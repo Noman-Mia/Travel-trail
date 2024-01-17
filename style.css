@@ -653,4 +653,6 @@ position: relative;
 .footer p{
   margin-bottom: 40px;
 }
-
+.digital-icon{
+  display: none;
+}

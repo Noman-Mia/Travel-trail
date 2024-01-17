@@ -101,7 +101,7 @@
     margin: -267px 3px 5px -55px;
 }
 .search{
-    margin: -46px 4px 4px 37px;
+    margin: -65px 4px 4px 37px;
 }  
 .discount-img{
     width: 499px;
@@ -122,4 +122,16 @@
     width: 480px;
     padding-left: 20px;
 }
+.digital-icon{
+    display: block;
+    margin: -32px 10px 10px 450px;
 }
+
+.nav-content ul{
+    display: none;
+}
+.header-container {
+    margin-bottom: 20px;
+}
+
+} 
